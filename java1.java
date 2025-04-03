@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Addition {
+public class Addmulsub {
     public static void main(String[] args) {
         // Create a Scanner object for input
         Scanner scanner = new Scanner(System.in);
@@ -23,6 +23,12 @@ public class Addition {
 
         // Display the result
         System.out.println("The product is: " + product);
+
+	double difference = num1 - num2;
+
+        // Display the result
+        System.out.println("The difference is: " + difference);
+
 
         // Close the scanner
         scanner.close();
